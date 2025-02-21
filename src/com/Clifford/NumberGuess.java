@@ -9,7 +9,7 @@ public class NumberGuess {
         Random rand= new Random();
 
        int randomNum=rand.nextInt(10);
-int num=0;
+       int num=0;
 
 
 do{
