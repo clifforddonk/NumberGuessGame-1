@@ -9,9 +9,14 @@ public class NumberGuess {
         Random rand= new Random();
 
        int randomNum=rand.nextInt(10);
+int num=0;
 
-        System.out.print("Guess any number from 1 to 10:");
-        int num=scanner.nextInt();
+
+do{
+    System.out.print("Guess any number from 1 to 10:");
+    num=scanner.nextInt();
+    System.out.println("Invalid input!Enter a number from 1 to 10");
+}while(num>10||num<0);
 
         if (num==randomNum)
             System.out.println("Congratulation, You won");
