@@ -20,6 +20,6 @@ public class NumberGuess {
         else
             System.out.println("You are wrong!Number too high😢😢");
 
-
+        System.out.println("The correct  number was"+randomNum);
     }
 }
