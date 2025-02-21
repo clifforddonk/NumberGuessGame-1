@@ -12,11 +12,11 @@ public class NumberGuess {
        int num=0;
 
 
-do{
-    System.out.print("Guess any number from 1 to 10:");
-    num=scanner.nextInt();
-    System.out.println("Invalid input!Enter a number from 1 to 10");
-}while(num>10||num<0);
+       do{
+        System.out.print("Guess any number from 1 to 10:");
+        num=scanner.nextInt();
+        System.out.println("Invalid input!Enter a number from 1 to 10");
+        }while(num>10||num<0);
 
         if (num==randomNum)
             System.out.println("Congratulation, You won");
