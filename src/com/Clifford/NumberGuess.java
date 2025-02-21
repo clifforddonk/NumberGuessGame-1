@@ -10,7 +10,7 @@ public class NumberGuess {
 
        int randomNum=rand.nextInt(10);
 
-        System.out.println("Guess any number from 1 to 10:");
+        System.out.print("Guess any number from 1 to 10:");
         int num=scanner.nextInt();
 
         if (num==randomNum)
@@ -20,6 +20,6 @@ public class NumberGuess {
         else
             System.out.println("You are wrong!Number too high😢😢");
 
-        System.out.println("The correct  number was"+randomNum);
+        System.out.println("The correct  number was "+randomNum);
     }
 }

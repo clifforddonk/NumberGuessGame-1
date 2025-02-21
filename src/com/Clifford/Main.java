@@ -1,4 +1,4 @@
-import com.Clifford.NumberGuess;
+package com.Clifford;
 
 public class Main {
     public static void main(String[] args) {
