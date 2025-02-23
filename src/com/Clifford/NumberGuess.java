@@ -8,7 +8,7 @@ public class NumberGuess {
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
 
-        // Fix 1: Ensure random number is between 1 and 10
+
         int randomNum = rand.nextInt(10) + 1;
         int num = 0;
 
@@ -16,7 +16,7 @@ public class NumberGuess {
         do {
             System.out.print("Guess any number from 1 to 10: ");
             num = scanner.nextInt();
-            
+
             if (num > 10 || num < 1) {
                 System.out.println("Invalid input! Enter a number from 1 to 10.");
             }
