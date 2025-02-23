@@ -16,8 +16,7 @@ public class NumberGuess {
         do {
             System.out.print("Guess any number from 1 to 10: ");
             num = scanner.nextInt();
-
-
+            
             if (num > 10 || num < 1) {
                 System.out.println("Invalid input! Enter a number from 1 to 10.");
             }
