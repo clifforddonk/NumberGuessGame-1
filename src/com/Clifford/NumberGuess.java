@@ -8,10 +8,8 @@ public class NumberGuess {
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
 
-
         int randomNum = rand.nextInt(10) + 1;
         int num = 0;
-
 
         do {
             System.out.print("Guess any number from 1 to 10: ");
