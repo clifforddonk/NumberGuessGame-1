@@ -24,7 +24,6 @@ public class NumberGuess {
 
         } while (num > 10 || num < 1);
 
-
         if (num == randomNum)
             System.out.println("Congratulations! 🎉 You won!");
         else if (num > randomNum)
