@@ -24,7 +24,6 @@ public class NumberGuess {
             System.out.println("You are wrong!😢😢\n" +"The number is lower than "+ num);
         else
             System.out.println("You are wrong!😢😢\n"+ "The number is greater than "+ num);
-
         System.out.println("The correct  number was "+randomNum);
     }
 }
